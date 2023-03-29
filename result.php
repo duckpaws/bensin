@@ -6,18 +6,17 @@
 <body>
 	<h2>Hasil Perhitungan</h2>
 	<?php
-		// Retrieve form data
 		$beban = $_POST['beban'];
 		$jarak = $_POST['jarak'];
 		$kecepatan = $_POST['kecepatan'];
 
-		// Calculate waktu tempuh
+		// menghitung waktu tempuh
 		$waktu_tempuh = ($jarak / $kecepatan); 
 
-		// Calculate konsumsi bensin
+		// mwnghitung konsumsi bensin
 		$konsumsi_bensin = ($jarak / 52.60) * $beban / $kecepatan;
 
-		// Calculate total biaya bensin
+		// mwnghitung total biaya bensin
 		$harga_bensin = ($konsumsi_bensin * 13500);
 	?>
 
