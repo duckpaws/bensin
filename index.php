@@ -13,7 +13,7 @@
 		<label>Kecepatan Rata-Rata (km/jam): </label>
 		<input type="number" name="kecepatan" required><br>
 
-		<input type="submit" name="submit" value="Hitung">
+		<input type="submit" name="submit">
 	</form>
 </body>
 </html>
